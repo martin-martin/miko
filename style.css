@@ -1,0 +1,29 @@
+/*
+miko-color (from imgs): #8B3A1E
+background-grayblack: #272822
+*/
+
+body {
+	background-color: #272822; /* sublime-text black */
+}
+h1 {
+	font-size: 5em;
+	color: #8B3A1E; /* miko-red */
+	text-align: center;
+}
+a {
+	color: gray;
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+}
+#static-feed {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.static-img {
+	height: 200px;
+	padding: 10px;
+}
