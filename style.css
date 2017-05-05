@@ -5,11 +5,12 @@ background-grayblack: #272822
 
 body {
 	background-color: #272822; /* sublime-text black */
+	text-align: center;
+	color: #8B3A1E;
 }
 h1 {
 	font-size: 5em;
 	color: #8B3A1E; /* miko-red */
-	text-align: center;
 }
 a {
 	color: gray;
@@ -18,12 +19,22 @@ footer {
 	display: flex;
 	justify-content: space-around;
 }
-#static-feed {
+#static-feed,
+#insta-feed {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+#static-feed {
+	padding-bottom: 50px;
+}
 .static-img {
-	height: 200px;
-	padding: 10px;
+	height: 100px;
+	padding: 2px;
+}
+.insta-img {
+	padding: 2px;
+}
+.caption {
+	text-align: center;
 }
