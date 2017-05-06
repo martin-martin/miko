@@ -38,3 +38,8 @@ footer {
 .caption {
 	text-align: center;
 }
+/* temporary */
+#under-construction {
+	max-width: 650px;
+	margin: auto;
+}
