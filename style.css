@@ -10,7 +10,10 @@ body {
 }
 h1 {
 	font-size: 5em;
-	color: #8B3A1E; /* miko-red */
+	color: gray;
+}
+h2 {
+	padding-bottom: 20px;
 }
 a {
 	color: gray;
@@ -18,6 +21,13 @@ a {
 footer {
 	display: flex;
 	justify-content: space-around;
+}
+span {
+	color: #8B3A1E; /* miko-red */
+}
+.logo {
+	width: 70px;
+	height: 70px;
 }
 #static-feed,
 #insta-feed {
